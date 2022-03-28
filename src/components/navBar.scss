@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap);
+
+:root {
+  --primaryColor: #cff5c1;
+  --mainBkrnd: #cff5c1;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.5s linear;
+}
+
+$title-font: "Amatic SC";
+$body-font: "Open Sans";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainBkrnd);
+  font-family: $body-font, sans-serif;
+}
+/* --------------- NAVBAR ---------------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #baddae;
+  z-index: 1;
+}
+.navbar-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
