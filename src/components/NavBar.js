@@ -1,22 +1,23 @@
-import './navBar.css';  
+import logo from './fotos/NH.png'
+import './navBar.css';
 
-function App(){
-    return(
-        <nav class="navbar">
-        <div class="navbar-center">
-          <span>
-            <i class="fas fa-bars burger"></i>
-            <ul class="nav-menu">
-              <li class="productos-btn">Productos</li>
-              <li class="negro-btn">El Negro</li>
-              <li class="nosotros-btn">Nosotros</li>
-              <li class="contacto-btn">Contacto</li>
-            </ul>
-          </span>
-          <img src="fotos\NH.png" alt="Negro Holandes Casa de Pan" />
-        </div>
-      </nav>
-    )
+function App() {
+  return (
+    <nav className="navbar">
+      <div className="navbar-center">
+        <span>
+          <i className="fas fa-bars burger"></i>
+          <ul className="nav-menu">
+            <li className="productos-btn">Productos</li>
+            <li className="negro-btn">El Negro</li>
+            <li className="nosotros-btn">Nosotros</li>
+            <li className="contacto-btn">Contacto</li>
+          </ul>
+        </span>
+        <img src={logo} alt="Negro Holandes Casa de Pan" />
+      </div>
+    </nav>
+  )
 }
 
 export default App;

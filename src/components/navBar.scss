@@ -33,6 +33,7 @@ body {
   align-items: center;
   background: #baddae;
   z-index: 1;
+  box-shadow: 0 0 7px -1px #00000091;
 }
 .navbar-center {
   width: 100%;
@@ -42,4 +43,20 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 1.5rem;
+}
+
+.nav-menu {
+  color: var(--mainBlack);
+  background-color: #baddae;
+  z-index: 4;
+  list-style-type: none;
+  font-family: "Amatic SC";
+}
+
+li {
+  cursor: pointer;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0.5rem;
 }
