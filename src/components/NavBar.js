@@ -8,10 +8,10 @@ function App() {
         <span>
           <i className="fas fa-bars burger"></i>
           <ul className="nav-menu">
-            <li className="productos-btn">Productos</li>
-            <li className="negro-btn">El Negro</li>
-            <li className="nosotros-btn">Nosotros</li>
-            <li className="contacto-btn">Contacto</li>
+            <li className="productos-btn"><a href="">Home</a></li>
+            <li className="negro-btn"><a href="">El Negro</a></li>
+            <li className="nosotros-btn"><a href="">Nosotros</a></li>
+            <li className="contacto-btn"><a href="">Contacto</a></li>
           </ul>
         </span>
         <img src={logo} alt="Negro Holandes Casa de Pan" />
